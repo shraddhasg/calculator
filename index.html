@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Calculator</title>
+    <script src="/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h2>
+        Calculator
+      </h2>
+    </header>
+    <div class="calculator">
+      <div class="screen" id="screen"></div>
+      <div class="keys">
+        <div class="numbers">
+          <button class="number" onclick="display(event)">1</button>
+          <button class="number" onclick="display(event)">2</button>
+          <button class="number" onclick="display(event)">3</button>
+          <button class="number" onclick="display(event)">4</button>
+          <button class="number" onclick="display(event)">5</button>
+          <button class="number" onclick="display(event)">6</button>
+          <button class="number" onclick="display(event)">7</button>
+          <button class="number" onclick="display(event)">8</button>
+          <button class="number" onclick="display(event)">9</button>
+          <button class="number" onclick="display(event)">0</button>
+          <button class="number equal" onclick="dispayResult(event)">=</button>
+        </div>
+        <div class="actions">
+          <button class="number" onclick="display(event)">+</button>
+          <button class="number" onclick="display(event)">-</button>
+          <button class="number" onclick="display(event)">*</button>
+          <button class="number" onclick="display(event)">/</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
